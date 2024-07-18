@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+
+  
+
+.land-page{
+         animation-name: hello;  
+         animation-duration: 3s; 
+         animation-iteration-count: 1;
+      
+         animation-range: entry 0% cover 40%;
+}
+@keyframes hello{
+  from{transform: scale(0); }
+to{transform: scale(1);}
+}
+.nav{
+     background-size: cover;
+     
+     background-image: linear-gradient(to left, #351a1a, #4a1e37, #421c41, #4e2e6f, #3a48a6);
+     background-repeat: no-repeat;
+     background-size: cover;
+      height:500px;
+      border-radius: 16px;
+  }
+
+  .menu{
+           
+            margin-left: 30%;
+            height: 80px;
+           margin-top: 10px;
+  }
+
+  .logo{
+          
+           height: 80px;
+           padding: 10px;
+  }
+  .menu ul{
+         display: inline-flex;
+      
+  }
+ .menu li{
+      padding: 20px;
+      list-style-type: none;
+      color: white;
+ }
+
+ button{
+          width: 150px;
+          border-radius: 16px;
+          border: none;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+button:hover{
+  background-color: #cd8eeb;
+  border: 2px solid violet;
+  width: 150px;
+  height: 30px;
+}
+
+ .lp-text{
+             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             font-size: 60px;
+             font-weight: bold;
+             color: #b047e0;
+             padding: 20%;
+             padding-bottom: 50px;
+ }
+ .button2{
+  width: 90px;
+            border-radius: 16px;
+            border-color: plum;
+            color: black;
+          font-weight: bold;
+  background-image: linear-gradient(to left, #351a1a, #4a1e37, #421c41, #4e2e6f, #3a48a6);
+  float: right;
+
+
+ }
+ .col-sm-4{
+  background-color:#b047e0;
+  height:200px;
+  color:antiquewhite;
+ }
+
+ .col-sm-2{
+  
+  padding: 1%;
+
+ }
+  .IMG1{
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+   .IMG1:hover{
+    transform: scale(1.1);
+   }
+   .IMG2{
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+   .IMG2:hover{
+    transform: scale(1.1);
+   }
+   .IMG3{
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+   .IMG3:hover{
+    transform: scale(1.1);
+   }
+   .IMG4{
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+   .IMG4:hover{
+    transform: scale(1.1);
+   }
+   .IMG5{
+  background-position: center;
+  background-size: cover;
+  transition:0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+   .IMG5:hover{
+    transform: scale(1.1);
+   }
+
+ .col-sm-8{
+ padding: 2%;
+ }
+ .content{
+  border-radius: 16px;
+  padding: 3%;
+  background-image: radial-gradient(circle, #b6cbec, #9eb8f8, #94a2ff, #9988ff, #ab66f8);
+  border: 2px solid rgb(56, 18, 56);
+  color: rgb(241, 235, 241);
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .mar1{
+         display: inline-flex;
+         
+ }
+
+ .mar1 p{
+  background-color: rgb(238, 215, 236);
+  color: black;
+             border: 1px solid rgb(140, 138, 138);
+             border-radius: 16px;
+             margin: 5px;
+             padding: 5px;
+ }
+ .sect1 h1{
+  color: #b047e0;
+  margin-left: 350px;
+ }
+ .sect1 span{
+  
+  color: blue;
+ }
+ .col-sm-6 img{
+  padding: 5%;
+  border-radius: 16px;
+margin-top: 20px;
+
+ }
+ .btn{
+  float:right;
+  margin-bottom: 100px;
+ }
+ 
+ .col-sm-6 .img1{
+  padding: 5%;
+  border-radius: 16px;
+margin-top: 20px;
+
+ }
+.container1{
+  background-image: linear-gradient(to left, #351a1a, #4a1e37, #421c41, #4e2e6f, #3a48a6);
+  margin: 3%;
+  border-radius: 16px;
+}
+.col-sm-6 p{
+  color: white;
+justify-content: center;
+  margin-top: 20px;
+  padding: 3%;
+}
+.col-sm-6 h1{
+  color: #bf78e0;
+  font-size: 28;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.sect3 {
+  background-color: #efe2f5;
+  border-radius: 16px;
+  height: 300px;
+  padding: 2%;
+}
+.sect3 p i{
+  margin-left: 200px;
+  color: blueviolet;
+  margin-top: 20px;
+  font-size: 38px;
+}
+
+ .sect3 h1{
+  margin-left: 100px;
+  color: #381a38;
+ }
+.sect3 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 10%;
+  margin-top: 20px;
+  margin-left: 20px;
+color: #aa5acf;
+}
+.shop1 h1{
+  font-size: 28px;
+  margin-left: 60px;
+}
+.shop2 h1{
+  font-size: 28px;
+  margin-left: 200px;
+}
+.shop3 h1{
+  font-size: 28px;
+  margin-left: 180px;
+}
+.shop4 h1 , .shop5 h1{
+  font-size: 28px;
+  margin-left: 160px;
+}
+
+.shop6 h1{
+  font-size: 28px;
+  margin-left: 140px;
+}
+.container2{
+  animation-name: ani3;
+  animation-duration: 4s;
+ animation-timeline: view();
+  
+  
+}
+@keyframes ani3
+{
+  from{
+    opacity:0;scale:0;
+  }
+  to{
+    opacity:1;scale:1;
+  }
+}
+.container3{
+  animation-name: ani4;
+  animation-duration: 4s;
+ animation-timeline: view();
+  
+  
+}
+@keyframes ani4
+{
+  from{
+    opacity:0;scale:0;
+  }
+  to{
+    opacity:1;scale:1;
+  }
+}
+.container4{
+  animation-name: ani5;
+  animation-duration: 4s;
+ animation-timeline: view();
+  
+  
+}
+@keyframes ani5
+{
+  from{
+    opacity:0;scale:0;
+  }
+  to{
+    opacity:1;scale:1;
+  }
+}
+.h1{
+margin-left: 450px;
+color: #641061;
+}
+.container5{
+  background-image: linear-gradient(to left, #351a1a, #380823, #1a1119, #1d0633, #060c33);
+  border-radius: 16px;
+}
+.box1 h1, .box2 h1 , .box3 h1{
+  font-size: 30px;
+}
+.box1  ul , .box2 ul{      
+  color: #e0cde9;
+}
+.box3  ul{
+       
+  color: #e0cde9;
+}
+.main{
+  
+  margin-left: 170px;
+  margin-top: 100PX;
+}
+.col-sm-2 button{
+width: 150px;
+height: 100px;
+border: 16px;
+margin-top: 10px;
+}
+.col-sm-3 button{
+width: 150px;
+height: 100px;
+border: 16px;
+margin-top: 20px;
+}
+.main1 h1{
+  margin-top: 20px;
+  color: #650dbe;
+  font-size: 50px;
+}
+.main1{
+  margin-left: 100px;
+}
+.main1 p{
+  color: #c125af;
+  padding: 0.001%
+
+}
+.hov1 button:hover{
+background-color: rgb(144, 137, 137);
+margin: 5px;
+border-radius: 16px;
+}
+.col-sm-3 button:hover{
+  background-color: rgb(144, 137, 137);
+}
+.lastpage{
+  height: 600px;
+  
+}
+.lastpage h1{
+  margin-left: 400px;
+}
+.lastpage img{
+  height: 500px;
+}
+.HOVER1{
+  margin-top: 20px;
+}
+.footer{
+  display: flex;
+  background-image:linear-gradient(to left, #351a1a, #4a1e37, #421c41, #4e2e6f, #3a48a6); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.footer h3{
+  display: inline-flex;
+  padding: 40px;
+  color: #bf78e0;
+  
+}
+.fa-brands {
+  display: inline-flex;
+  padding: 3px;
+}
+.look{
+  height: 350px;
+width: 100%;
+padding: 50PX;
+background-image: linear-gradient(to top, #8523f2, #a833e4, #bf48d8, #ce5dce, #d874c7);
+border-radius: 16PX;
+}
+.look:hover{
+  height: 350px;
+  color: floralwhite;
+}
+.trans{
+  margin-top: 70px;
+  animation-name: ani2;
+  animation-timeline: view();
+  animation-duration: 3s;
+  
+}
+@keyframes ani2{
+  from{
+    transform:translate (0);
+  }
+  to{
+    transform:translate(-100px);
+  }
+}
+</style>
+<body>
+    <div class="container-fluid">
+    <div class="nav">
+
+<div class="logo">
+
+  <img src="pic/logo.jpg" width="80px"  class="rounded" height="70px"  alt="logo" >
+</div>
+
+     <div class="menu">
+
+  <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+
+  </ul>
+  
+  <button> Join</button>
+     </div>
+
+<div class="land-page">
+  <h1 class="lp-text">
+    Build your site in  minutes <i class="fa-solid fa-bolt" ></i>
+  </h1>
+  <div class="button2">
+
+  <button>Purchase Hub</button>
+</div>
+</div>
+    </div>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 "> 
+      <div class="IMG1">
+    <img src="pic/AI1.jpg" width="100%" class="rounded">
+  </div>
+    <br><br>
+    <div class="container ">
+      <div class="look">
+      <p>
+        Looking for a SaaS solution to start your AI Business? Check out MagicAI
+       </p>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="IMG2">
+          <img src="pic/ai2.jpg" width="100%" class="rounded" height="200px">
+        </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="IMG3">
+         <img src="pic/ai4.jpg" width="100%"  class="rounded" height="200px"><br>
+        </div>
+        </div>
+      </div>
+      <div class="container ">
+        <div class="content">
+        <p><b>
+          Meet AIHub. A huge project dedicated<br>
+           to Aritificial Intelligence.<br>
+          It's time to take your website building <br>
+          experience to the next level and boost your productivity.</b></p>
+        </div>
+      </div>
+      <div class="container border-">
+<div class="marqee" >
+  <marquee behavior="linear-gradient" direction="right" >
+    
+    <div class="mar1">
+    <p>life time updates </p>  
+    <p> Section Temnplates</p>
+    <p>GDPR Compliant</p>
+    <p>Unique animations </p> 
+    <p>life time updates </p>  
+    <p> Section Temnplates</p>
+    <p>GDPR Compliant</p>
+    <p>Unique animations </p> 
+    </div>
+    </marquee>
+
+    <marquee behavior="linear-gradient" direction="left" > <div class="mar1">
+      <p>Woocommerce </p>  
+      <p> AI Powered</p>
+      <p>Free Support</p>
+      <p>Multilingual</p> 
+      <p>Woocommerce </p>  
+      <p> AI Powered</p>
+      <p>Free Support</p>
+      <p>Multilingual</p> 
+      </div>
+    </marquee>
+</div>
+
+</div>
+      
+      </div>
+      <div class="col-sm-2 ">
+        <div class="IMG4">
+        <img src="pic/ai3.jpg" width="100%" class="rounded" height="120px">
+      </div><br><br>
+      <div class="IMG5">
+        <img src="pic/ai5.jpg" width="100%"  class="rounded" height="300px">
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" text-violet>
+    <div class="sect1">
+    <h1>Start Your <span >AI</span> Platform</h1>
+
+  </div>
+  </div>
+<div class="container1" >
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="pic/chatbot.png" width="180px" height="180px">
+      <h1>
+        All-in-one SaaS Platform for AI Content</h1>
+        <p>
+        Meet MagicAI. All-in-one platform to generate AI content 
+        and start making money in minutes.
+        Meet AIHub. A huge project dedicated to Aritificial Intelligence. 
+        It's time to take your website building experience to the next level and boost your productivity.</p>
+<div class="btn"><button>Learn more</button></div>
+      
+    </div>
+    <div class="col-sm-6">
+      <div class="trans">
+      <img src="pic/ai8.png" width="100%" class="rounded" height="400px">
+    </div>
+    </div>
+
+
+  
+</div>
+</div>
+<div class="container">
+  <div class="sect3">
+    <p><i>more demos coming soon</i></p>
+    <h1>Best-in-class designs to get you started.</h1>
+    
+    <p>Install any demo or template with a single click.</p>
+      <p> You can mix and match all the demos and templates. </p>
+       <p>Every demo can be turned into one or multi-page with shopping features. </p>
+  </div>
+</div>
+<div class="container2">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="shop1">
+      <img src="pic/AI10.webp" height="370px" width="90%">
+      <h1 ><b>AI IMAGE GENERATOR</b></h1>
+    </div>
+  </div>
+<div class="col-sm-6">
+  <div class="shop2">
+    <img src="pic/ai12.jpg" width="90%" height="370px">
+    <h1 ><b>AI SHOP</b></h1>
+  </div>
+</div>
+</div>
+</div>
+<div class="container3">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="shop3">
+      <img src="pic/ai11.jpg" height="370px" width="90%">
+      <h1 ><b>AI Saas</b></h1>
+    </div>
+  </div>
+<div class="col-sm-6">
+  <div class="shop4">
+    <img src="pic/AI13.jpg" width="90%" height="370px">
+    <h1 ><b>AI Soft ware</b></h1>
+  </div>
+</div>
+</div>
+</div>
+<div class="container4">
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="shop5">
+      <img src="pic/ai14.webp" height="370px" width="90%">
+      <h1 ><b>AI Chatbot</b></h1>
+    </div>
+  </div>
+<div class="col-sm-6">
+  <div class="shop6">
+    <img src="pic/ai15.webp" width="90%" height="370px" >
+    <h1 ><b>AI Text Generator</b></h1>
+  </div>
+</div>
+</div>
+</div><br>
+<div class="h1">
+<h1>Powered by AI</h1>
+</div>
+<div class="container5">
+  <div class="row">
+    <div class="col-sm-6 ">
+      <div class="img1">
+      <img src="pic/ai16.png" width="100%">
+    </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="main">
+      <div class="box1">
+      <h1>AI Text</h1>
+   
+      <ul>
+        <li>Generate AI Content</li>
+        <li> Custom Prompt</li>
+        <li>  Request Limit</li>
+        
+      </ul>
+    </div>
+    <div class="box2">
+      <h1>AI Chat</h1>
+   
+      <ul>
+        <li>Live Chat</li>
+        <li> Embedded Widget</li>
+        <li>Request Limit</li>
+        
+      </ul>
+    </div>
+    <div class="box3">
+      <h1>AI Chat</h1>
+   
+      <ul>
+        <li>Live Chat</li>
+        <li> Embedded Widget</li>
+        <li>Request Limit</li>
+        
+      </ul>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+
+</div>
+<div class="container-fluid1">
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="hov1">
+      <button>live site builder</button>
+    </div>
+    </div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-sm-3"><button>live site customizer</button></div>
+        <div class="col-sm-3"><button>Head builder</button></div>
+        <div class="col-sm-3"><button>Footer builder</button></div>
+        <div class="col-sm-3"><button>Mega-Menu builder</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="HOVER1">
+  <div class="container6">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="main1">
+        <h1>Live Site<br> Builder</h1>
+        <p><b>Custom Layouts. You can create, edit, and customize
+      your website visually and see the changes instantly.
+      No coding is required! The live customizer </b></p>
+    </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="pic/livebuilder.png" width="100%" height="400px">
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="lastpage">
+  <img src="pic/footerimg.jpg" width="100%">
+  <h1><b>Join our AI community</b></h1>
+</div>
+<div class="container7">
+  <div class="footer">
+    <h3>Follow us on</h3>
+    <h3><i class="fa-brands fa-twitter"></i>Twitter</h3>
+    <h3><i class="fa-brands fa-youtube"></i>youtube</h3>
+    <h3><i class="fa-brands fa-instagram"></i>Instagram</h3>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
